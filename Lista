@@ -1,0 +1,16 @@
+lista = []
+while True:
+	n = (int(input("Digite um valor: ")))
+	if n not in lista:#Verifica se o numero adicionado ja existe
+		lista.append(n)
+		print("VALOR ADICIONADO	")
+	else:
+		print("Valor duplicado")
+	a = str(input("Deseja continuar?: "))
+	if a in 'Nn':
+		break
+	if lista.append in lista:
+		print("VALOR DUPLICADO")
+
+print("FECHANDO")
+print(sorted(lista))
